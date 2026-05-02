@@ -3,9 +3,22 @@ const SKILLS = [
   "PyTorch",
   "TensorFlow",
   "Transformers",
+  "RAG",
+  "langchains",
+  "FastAPI",
+  "Streamlit",
+  "Scikit-learn",
+  "NumPy",
+  "Pandas",
+  "Matplotlib",
+  "Docker",
+  "AWS",
   "Flutter",
-  "React",
-  "Node.js",
+  "Firebase",
+  "Dart",
+  "Three.js",
+  "Tailwind CSS",
+  "Git",
 ];
 
 const About = () => {
@@ -17,7 +30,7 @@ const About = () => {
           <h2 className="font-pixel text-xl sm:text-3xl mb-6 text-foreground">About Me</h2>
           <p className="text-muted-foreground text-base sm:text-lg leading-relaxed mb-6">
             I specialize in <span className="text-primary font-semibold">Machine Learning</span>,{" "}
-            <span className="text-secondary font-semibold">Deep Learning</span>, and Full Stack Development.
+            <span className="text-secondary font-semibold">Deep Learning</span>.
             I build scalable AI systems and intuitive interfaces.
           </p>
           <p className="text-muted-foreground leading-relaxed">
@@ -59,7 +72,7 @@ const About = () => {
 {`{
   "currently": "training_transformers",
   "exploring": ["RAG", "Agents", "Diffusion"],
-  "stack": ["PyTorch", "FastAPI", "React"],
+  "stack": ["PyTorch", "FastAPI", "Streamlit","Matplotlib","TensorFlow",Scikit-learn"],
   "open_to": "ML internships & roles"
 }`}
             </pre>

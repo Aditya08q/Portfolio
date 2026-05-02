@@ -27,7 +27,7 @@ const ITEMS = [
     title: "Web Development",
     org: "Independent / Research",
     description: "Frontend  development for web applications.",
-    tags: ["Firebase", "HTML","Tailwind CSS","javaScript","Three.js"],
+    tags: ["Firebase", "HTML","Tailwind CSS","javaScript","Three.js","React","Typescript"],
   },
 ];
 
