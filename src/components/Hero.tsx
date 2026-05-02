@@ -139,11 +139,11 @@ const Hero = () => {
             <PixelButton variant="primary" onClick={() => document.getElementById("projects")?.scrollIntoView({ behavior: "smooth" })}>
               View Projects
             </PixelButton>
-            <PixelButton variant="secondary" onClick={() => window.open("https://github.com", "_blank")}>
+            <PixelButton variant="secondary" onClick={() => window.open("https://github.com/Aditya08q", "_blank")}>
               <Github size={14} /> GitHub
             </PixelButton>
             <PixelButton variant="secondary" onClick={() => setGameOpen(true)}>
-              <Gamepad2 size={14} /> PLAY DATA DEFENSE
+              <Gamepad2 size={14} /> PLAY GAME
             </PixelButton>
           </div>
 

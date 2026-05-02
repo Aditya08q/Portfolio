@@ -100,10 +100,10 @@ const Contact = () => {
 
         <div className="flex justify-center gap-3 mt-10">
           {[
-            { Icon: Github, href: "https://github.com", label: "GitHub" },
-            { Icon: Linkedin, href: "https://linkedin.com", label: "LinkedIn" },
-            { Icon: Twitter, href: "https://twitter.com", label: "Twitter" },
-            { Icon: Mail, href: "mailto:hello@example.com", label: "Email" },
+            { Icon: Github, href: "https://github.com/Aditya08q", label: "GitHub" },
+            { Icon: Linkedin, href: "https://www.linkedin.com/in/aditya-srivastava-388953254/", label: "LinkedIn" },
+            { Icon: Twitter, href: "https://x.com/srivastava03q", label: "Twitter" },
+            { Icon: Mail, href: "mailto:srivastavaditya303@gmail.com", label: "Email" },
           ].map(({ Icon, href, label }) => (
             <a
               key={label}

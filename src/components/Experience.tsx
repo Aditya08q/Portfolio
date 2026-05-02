@@ -1,17 +1,33 @@
+import { M } from "vitest/dist/chunks/reporters.d.BFLkQcL6.js";
+
 const ITEMS = [
   {
-    period: "2024 — Now",
-    title: "Machine Learning Projects",
+    period: "2026 — Now",
+    title: "Deep Learning Projects",
     org: "Independent / Research",
-    description: "Worked on NLP, CV, and Transformer-based systems — from data pipelines to deployable models.",
-    tags: ["NLP", "CV", "Transformers"],
+    description: "Worked on NLP and Transformer-based systems — from data pipelines to deployable models.",
+    tags: ["ANN","CNN","RNN","LSTM","NLP", "Transformers"],
   },
   {
+    period: "2025",
+    title: "Machine Learning",
+    org: "Independent / Research",
+    description: "Learning and experimenting with various machine learning techniques and algorithms.",
+    tags: [ "Scikit-learn", "TensorFlow", "PyTorch" ,"XGBoost","NumPy","Pandas","Streamlit","Matplotlib"],
+  },
+    {
+    period: "2024",
+    title: "Android Development",
+    org: "Independent / Research",
+    description: "Developed cross-platform Android applications using Flutter and Dart.",
+    tags: ["MVVM", "Firebase", "Flutter","Dart","Riverpod"],
+  },
+     {
     period: "2023",
-    title: "Full Stack Development",
-    org: "Personal & Open Source",
-    description: "Shipped React, Node.js and Flutter apps — bridging ML models with intuitive interfaces.",
-    tags: ["React", "Node.js", "Flutter"],
+    title: "Web Development",
+    org: "Independent / Research",
+    description: "Frontend  development for web applications.",
+    tags: ["Firebase", "HTML","Tailwind CSS","javaScript","Three.js"],
   },
 ];
 
