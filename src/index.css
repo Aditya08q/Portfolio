@@ -849,7 +849,6 @@ html.pixel-cursor-active * {
   100% { opacity: 0; transform: translate(-50%, -60px) scale(0.9); }
 }
 
-/* Level up flash */
 .level-up-flash {
   position: absolute;
   inset: 0;
@@ -890,12 +889,10 @@ html.pixel-cursor-active * {
   .level-up-text { font-size: 18px; }
 }
 
-/* Push page content below the XP bar */
+
 body { padding-top: 26px; }
 
-/* ============================================ */
-/* Behavior system — hints, glitch, emphasis     */
-/* ============================================ */
+
 .behavior-hint {
   pointer-events: auto;
   display: inline-flex;
@@ -927,7 +924,7 @@ body { padding-top: 26px; }
   image-rendering: pixelated;
 }
 
-/* Idle — blink */
+
 .behavior-hint-idle {
   border-color: hsl(var(--accent));
   color: hsl(var(--accent));
@@ -939,7 +936,7 @@ body { padding-top: 26px; }
   box-shadow: 0 0 6px hsl(var(--accent));
 }
 
-/* Inactive — soft fade */
+
 .behavior-hint-inactive {
   border-color: hsl(var(--secondary));
   color: hsl(var(--secondary));
@@ -951,7 +948,7 @@ body { padding-top: 26px; }
   box-shadow: 0 0 6px hsl(var(--secondary));
 }
 
-/* Repeat hover — pulse */
+
 .behavior-hint-repeat {
   border-color: hsl(var(--primary));
   animation: behavior-hint-in 0.3s steps(4) forwards, hint-pulse 0.9s steps(4) infinite 0.4s;
@@ -978,7 +975,7 @@ body { padding-top: 26px; }
   }
 }
 
-/* Fast scroll glitch flash */
+
 .behavior-glitch-flash {
   background:
     repeating-linear-gradient(
@@ -1001,7 +998,7 @@ body { padding-top: 26px; }
   100% { opacity: 0; transform: translateX(0); }
 }
 
-/* Section entry emphasis */
+
 .emphasize-zoom {
   animation: emphasize-zoom 1.4s steps(8) forwards;
 }
@@ -1027,7 +1024,7 @@ body { padding-top: 26px; }
   }
 }
 
-/* ===== Data Defense mini-game ===== */
+
 @keyframes dd-shake {
   0%, 100% { transform: translate(0, 0); }
   25% { transform: translate(-4px, 2px); }
