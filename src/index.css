@@ -581,11 +581,11 @@ html.pixel-cursor-active * {
     linear-gradient(hsl(var(--accent)), hsl(var(--accent))) 8px 0/4px 4px no-repeat,
    
     linear-gradient(hsl(var(--accent)), hsl(var(--accent))) 8px 4px/4px 8px no-repeat,
-    /* knuckles */
+   
     linear-gradient(hsl(var(--accent)), hsl(var(--accent))) 4px 8px/4px 8px no-repeat,
     linear-gradient(hsl(var(--accent)), hsl(var(--accent))) 12px 8px/4px 8px no-repeat,
     linear-gradient(hsl(var(--accent)), hsl(var(--accent))) 16px 8px/4px 8px no-repeat,
-    /* palm */
+    
     linear-gradient(hsl(var(--accent)), hsl(var(--accent))) 4px 16px/16px 6px no-repeat;
   filter: drop-shadow(2px 2px 0 hsl(var(--background))) drop-shadow(0 0 6px hsl(var(--accent) / 0.7));
   transform-origin: 10px 4px;
@@ -597,23 +597,23 @@ html.pixel-cursor-active * {
   to   { opacity: 1; }
 }
 
-/* PROJECT HOVER — crosshair / target reticle */
+
 .pixel-pointer-target {
   width: 32px;
   height: 32px;
   margin: -16px 0 0 -16px;
   background:
-    /* center dot */
+   
     linear-gradient(hsl(var(--primary)), hsl(var(--primary))) 14px 14px/4px 4px no-repeat,
-    /* top tick */
+    
     linear-gradient(hsl(var(--primary)), hsl(var(--primary))) 14px 0/4px 6px no-repeat,
-    /* bottom tick */
+   
     linear-gradient(hsl(var(--primary)), hsl(var(--primary))) 14px 26px/4px 6px no-repeat,
-    /* left tick */
+    
     linear-gradient(hsl(var(--primary)), hsl(var(--primary))) 0 14px/6px 4px no-repeat,
-    /* right tick */
+   
     linear-gradient(hsl(var(--primary)), hsl(var(--primary))) 26px 14px/6px 4px no-repeat,
-    /* corner brackets */
+  
     linear-gradient(hsl(var(--accent)), hsl(var(--accent))) 0 0/4px 2px no-repeat,
     linear-gradient(hsl(var(--accent)), hsl(var(--accent))) 0 0/2px 4px no-repeat,
     linear-gradient(hsl(var(--accent)), hsl(var(--accent))) 28px 0/4px 2px no-repeat,
@@ -635,16 +635,14 @@ html.pixel-cursor-active * {
   to   { filter: drop-shadow(0 0 12px hsl(var(--primary) / 1)); }
 }
 
-/* CLICK — invert + scale-down */
+
 .pixel-pointer-clicking {
   filter: invert(1) drop-shadow(0 0 8px hsl(var(--accent) / 0.9)) !important;
   scale: 0.7;
   animation: none !important;
 }
 
-/* ============================================ */
-/* Project fullscreen modal — pixelate expand    */
-/* ============================================ */
+
 .pixel-modal-backdrop {
   position: fixed;
   inset: 0;
@@ -723,9 +721,6 @@ html.pixel-cursor-active * {
   50% { border-color: transparent; }
 }
 
-/* ============================================ */
-/* Project tile glitch hover preview             */
-/* ============================================ */
 .pixel-tile {
   position: relative;
   overflow: hidden;
@@ -757,9 +752,7 @@ html.pixel-cursor-active * {
   100% { transform: translateX(0); }
 }
 
-/* ============================================ */
-/* XP / Progress system                          */
-/* ============================================ */
+
 .xp-bar-wrap {
   pointer-events: auto;
   display: flex;
@@ -823,7 +816,6 @@ html.pixel-cursor-active * {
   .xp-bar-meta { font-size: 8px; }
 }
 
-/* Floating XP popups */
 .xp-popup {
   position: absolute;
   transform: translate(-50%, 0);
