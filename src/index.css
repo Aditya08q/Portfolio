@@ -104,7 +104,7 @@
     color: hsl(var(--foreground));
   }
 
-  /* Scrollbar */
+ 
   ::-webkit-scrollbar { width: 10px; height: 10px; }
   ::-webkit-scrollbar-track { background: hsl(var(--background)); }
   ::-webkit-scrollbar-thumb { background: hsl(var(--surface)); border-radius: 8px; border: 2px solid hsl(var(--background)); }
@@ -214,9 +214,7 @@
   50% { box-shadow: 0 0 40px hsl(var(--primary) / 0.6); }
 }
 
-/* ============================================ */
-/* Pixel-space ambient background                */
-/* ============================================ */
+
 .pixel-stars {
   background-color: transparent;
   background-image:
@@ -263,9 +261,7 @@
   100% { background-position: 0 80px, 80px 0; }
 }
 
-/* ============================================ */
-/* Spinning coin sprite                          */
-/* ============================================ */
+
 .pixel-coin {
   width: 16px;
   height: 16px;
@@ -307,9 +303,6 @@
   100% { opacity: 0; transform: translateY(-50px) scale(0.8); }
 }
 
-/* ============================================ */
-/* Pixel cursor + dust trail + click bursts      */
-/* ============================================ */
 html.pixel-cursor-active,
 html.pixel-cursor-active * {
   cursor: none !important;
@@ -377,9 +370,6 @@ html.pixel-cursor-active * {
   100% { transform: translate(var(--dx), var(--dy)) scale(0.2); opacity: 0; }
 }
 
-/* ============================================ */
-/* Game intro overlay                            */
-/* ============================================ */
 .pixel-scanlines {
   background-image: repeating-linear-gradient(
     to bottom,
@@ -412,9 +402,7 @@ html.pixel-cursor-active * {
   animation: pixel-flash 260ms steps(3) forwards;
 }
 
-/* ============================================ */
-/* Pixel bird + screen glitch                    */
-/* ============================================ */
+
 .pixel-bird {
   position: absolute;
   width: 12px;
@@ -471,28 +459,25 @@ html.pixel-cursor-active * {
   100% { transform: translateX(0); opacity: 0; }
 }
 
-/* ============================================ */
-/* Pixel avatar (8x16 sprite-ish)                */
-/* ============================================ */
 .pixel-avatar {
   width: 24px;
   height: 32px;
   position: relative;
   image-rendering: pixelated;
   background:
-    /* head */
+  
     linear-gradient(hsl(var(--accent)), hsl(var(--accent))) 6px 0/12px 8px no-repeat,
-    /* eyes */
+    
     linear-gradient(hsl(var(--background)), hsl(var(--background))) 9px 3px/2px 2px no-repeat,
     linear-gradient(hsl(var(--background)), hsl(var(--background))) 13px 3px/2px 2px no-repeat,
-    /* body */
+    
     linear-gradient(hsl(var(--primary)), hsl(var(--primary))) 4px 8px/16px 14px no-repeat,
-    /* belt */
+   
     linear-gradient(hsl(var(--accent)), hsl(var(--accent))) 4px 18px/16px 2px no-repeat,
-    /* legs */
+    
     linear-gradient(hsl(var(--secondary)), hsl(var(--secondary))) 6px 22px/4px 8px no-repeat,
     linear-gradient(hsl(var(--secondary)), hsl(var(--secondary))) 14px 22px/4px 8px no-repeat,
-    /* feet */
+   
     linear-gradient(hsl(var(--foreground)), hsl(var(--foreground))) 4px 30px/6px 2px no-repeat,
     linear-gradient(hsl(var(--foreground)), hsl(var(--foreground))) 14px 30px/6px 2px no-repeat;
   filter: drop-shadow(2px 2px 0 hsl(var(--background)));
@@ -513,9 +498,7 @@ html.pixel-cursor-active * {
   50%      { transform: translateY(-12px); }
 }
 
-/* ============================================ */
-/* Projects level-select map                     */
-/* ============================================ */
+
 .pixel-map-bg {
   background:
     linear-gradient(hsl(var(--primary) / 0.06) 1px, transparent 1px) 0 0/24px 24px,
@@ -572,9 +555,6 @@ html.pixel-cursor-active * {
   100% { opacity: 0; transform: scale(2); }
 }
 
-/* ============================================ */
-/* Dynamic pixel cursor states                   */
-/* ============================================ */
 .pixel-pointer-dynamic {
   position: absolute;
   top: 0;
@@ -587,7 +567,7 @@ html.pixel-cursor-active * {
   will-change: transform;
 }
 
-/* DEFAULT — small 6px dot */
+
 .pixel-pointer-dot {
   background:
     linear-gradient(hsl(var(--primary)), hsl(var(--primary))) 0 0/6px 6px no-repeat,
@@ -595,12 +575,11 @@ html.pixel-cursor-active * {
   filter: drop-shadow(0 0 4px hsl(var(--primary) / 0.8));
 }
 
-/* LINK HOVER — pixel hand pointer */
 .pixel-pointer-hand {
   background:
-    /* finger tip */
+    
     linear-gradient(hsl(var(--accent)), hsl(var(--accent))) 8px 0/4px 4px no-repeat,
-    /* finger column */
+   
     linear-gradient(hsl(var(--accent)), hsl(var(--accent))) 8px 4px/4px 8px no-repeat,
     /* knuckles */
     linear-gradient(hsl(var(--accent)), hsl(var(--accent))) 4px 8px/4px 8px no-repeat,
